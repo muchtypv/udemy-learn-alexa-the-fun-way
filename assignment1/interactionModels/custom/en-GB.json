@@ -1,0 +1,63 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "farm facts",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "animals",
+          "slots": [],
+          "samples": [
+            "what animals",
+            "animals"
+          ]
+        },
+        {
+          "name": "location",
+          "slots": [],
+          "samples": [
+            "where can I find",
+            "located",
+            "location",
+            "where are you",
+            "where is",
+            "how do i get to",
+            "how do I find"
+          ]
+        },
+        {
+          "name": "owner",
+          "slots": [],
+          "samples": [
+            "zookeeper",
+            "farmer",
+            "owner",
+            "who runs",
+            "who owns"
+          ]
+        }
+      ],
+      "types": []
+    }
+  },
+  "version": "7"
+}
