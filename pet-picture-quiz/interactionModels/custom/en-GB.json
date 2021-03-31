@@ -1,0 +1,133 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "pet picture quiz",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "greetUserIntent",
+          "slots": [
+            {
+              "name": "name",
+              "type": "AMAZON.FirstName"
+            }
+          ],
+          "samples": [
+            "you can call me {name}",
+            "I\u0027m {name}",
+            "{name} is my name",
+            "Call me {name}",
+            "I am {name}",
+            "my name is {name}",
+            "{name}"
+          ]
+        },
+        {
+          "name": "questionIntent",
+          "slots": [],
+          "samples": [
+            "start the quiz",
+            "start",
+            "next question",
+            "next ",
+            "one more please",
+            "lets have another go",
+            "give me another",
+            "play again"
+          ]
+        },
+        {
+          "name": "answerIntent",
+          "slots": [
+            {
+              "name": "petName",
+              "type": "petName"
+            }
+          ],
+          "samples": [
+            "I think that is {petName}",
+            "that is {petName}",
+            "thats {petName}",
+            "how about {petName}",
+            "Is it {petName}",
+            "{petName}",
+            "Its {petName}",
+            "I think it is {petName}"
+          ]
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "name": {
+                "value": "riley"
+              }
+            },
+            {
+              "name": {
+                "value": "dave"
+              }
+            },
+            {
+              "name": {
+                "value": "daisy"
+              }
+            },
+            {
+              "name": {
+                "value": "fake dave"
+              }
+            },
+            {
+              "name": {
+                "value": "norman"
+              }
+            },
+            {
+              "name": {
+                "value": "peas"
+              }
+            },
+            {
+              "name": {
+                "value": "caol ila"
+              }
+            },
+            {
+              "name": {
+                "value": "bella"
+              }
+            },
+            {
+              "name": {
+                "value": "ginger"
+              }
+            }
+          ],
+          "name": "petName"
+        }
+      ]
+    }
+  },
+  "version": "8"
+}
